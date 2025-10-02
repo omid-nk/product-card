@@ -12,6 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #fafafa;
 }
 
 .product-card {
@@ -43,6 +44,7 @@ body {
     gap: 1.2rem;
 }
 .product_item{
+    background-color: white;
     box-shadow: -2px 2px 12px rgba(0, 0, 0, 0.1);
 }
 .product_item > img{
