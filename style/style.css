@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "shabnam" ;
+}
+@font-face {
+    font-family: "shabnam" ;
+    src: url(../font/Shabnam-FD.woff2);
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.product-card {
+    width: 1200px;
+    height: 600px;
+    padding: 1.2rem;
+}
+.header__product-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.header__product-card > p{
+    color: black;
+    font-size: 16px;
+}
+.header__product-card > a{
+    color:  rgb(0, 34, 255);
+    text-decoration: none;
+}
+
+
+
+
+.product-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+.product_item{
+    box-shadow: -2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+.product_item > img{
+    margin: 1.5rem 0;
+    width: 100%;
+}
+.content-product_item{
+    padding: 0 1rem;
+}
+.content-product_item > h3{
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+
+
+.discount-section{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+.discount-section > span{
+    background-color: #acd6ff;
+    color: #02488e;
+    padding: 0.1rem 0.2rem 0;
+    border-radius: 0.2rem;
+}
+.discount-section > p{
+    color: rgb(88, 88, 88);
+    text-decoration: line-through;
+}
+
+
+.price-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.price{
+    font-size: 18px;
+    font-weight: bold;
+}
+.price span{
+    color: rgb(53, 53, 53);
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.star-section{
+    font-size: 16px;
+    color: rgb(88, 88, 88);
+}
